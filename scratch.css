@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+	height: 100px;
+	background-color: blue;
+}
+
+div#links {
+	vertical-align: center;
+	float:right;
+	width: 50%
+
+}
+
+nav li {
+	width:80px;
+	text-decoration: none;
+	font-family: Gill Sans, Helvetica, Arial sans-serif;
+	z-index: 5;
+	list-style-type: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav li a {
+	text-decoration: none;
+	color:white;
+}
+
+nav h1 {
+	z-index: 5;
+}
+
+
+/*another try*/
+
+header#site-header {
+	font-family: font-family: Gill Sans, Helvetica, Arial sans-serif;
+	text-shadow: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-rendering: optimizeLegibility;
+	border-top-color: #1b1b20;
+	color: #1b1b20;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+	background: #fff;
+	padding: 10px 0 10px 0 !important;
+	border-top-color: #1b1b20;
+	background-color: gray;
+}
+
+#site-header nav {
+	width: 30%;
+}
+
+#site-header nav ul {
+/*	position: relative;
+*//*	float: right;
+*/}
+
+#site-header nav ul li {
+	font-family: 'futura';
+	letter-spacing: 2px;
+	font-size: 15px !important;
+	font-weight: 400;
+	color: black;
+	margin-right:12px;
+	color: #212121;
+	display: inline-block;
+/*	display: table;
+*//*	position: fixed;
+*/	z-index: 1000;
+	height: auto;
+}
+
+.clearfix { zoom: 1; overflow: hidden; }
+
+#site-header nav ul li a:hover {
+	border-bottom:2px solid #212121;
+}
+
+/*#site-header nav {
+	padding: 50px 40px 20px 0;
+}*/
+
+
+
+
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+
+#iso {
+	padding: 20px;
+	margin: 0 auto;
+	-webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+article blockquote {
+	padding:0;
+	border-left:none;
+	font-family:'Futura', 'futura-pt', helvetica, arial, sans-serif;
+	font-weight:400 !important;
+}
+
+article, .article-box {
+	border-radius:0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	background-image:none;
+}
+
+article {
+  padding:7px !important;
+}
+
+.article-box:hover {
+	padding: 3px 3px 0 3px !important;
+	margin: -3px 3px -2px -3px !important;
+}

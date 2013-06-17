@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Average+Sans);
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif); /*I like this for paragraphs*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	height: 110px;
+	/*background-color: #FF0000;*/
+	background: linear-gradient(45deg, #020031 0%,#6d3353 100%);
+	border-top:thick solid #ff0000;
+}
+
+footer {
+	height: 50px;
+	background: linear-gradient(45deg, #020031 0%,#6d3353 100%);
+	border-bottom: thick solid #ff0000;
+}
+
+header h1 a {
+	float:left;
+	margin-left: 75px;
+	line-height: 110px;
+	/*font-family: "Average Sans";*/
+	font-family: Georgia, serif;
+	font-weight: normal;
+	text-decoration: none;
+	color: #9FEE00;
+}
+
+nav ul {
+	margin-right: 50px;
+	padding: 5px 0px 5px 30px;
+	float: right;
+}
+
+nav li {
+	display: inline;
+	text-transform: lowercase;
+	font-family: "Noto Serif";
+}
+
+nav li a {
+	padding: 10px;
+	text-decoration: none;
+	line-height: 110px;
+	color: #9FEE00;
+}
+
+div#body {
+	height: 100%;
+	/*padding-bottom: 100%;*/
+}
+
+body {
+	/*background-color: #5CCCCC;*/
+	background-image: url(images/paper.jpg);
+}
+
+#card-container {
+	margin-top: 10px;
+	font-family: "Noto Serif";
+}
+
+.card {
+	width: 200px;
+	float: left;
+	background-color: #F5001D; /*C9F76F*/
+	box-shadow: 3px 3px 7px #6d3353;
+	margin: 10px;
+	padding: 5px;
+	border: 1px gray solid;
+}
+
+.card:hover {
+	/*background-color: #612e50;*/
+	box-shadow: 6px 6px 7px rgba(0,0,0,0.3);
+}
+
+div#body div#card-container div article img {
+	width: 180px;
+	padding: 10px;
+
+}
+
+div#body div#card-container div article p {
+	margin: 0px 10px 10px 15px;	
+
+}
+
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.9;
+}
