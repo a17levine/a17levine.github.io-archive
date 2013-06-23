@@ -4,6 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<script src="/scripts/masonry.pkgd.min.js"></script>
 		<title>Alex Levine | Web Developer</title>
 	</head>
 	<body>
@@ -21,8 +22,9 @@
 			</nav>
 		</header>
 		<div id="body">
-			<div id="card-container" class="container_12">
-				<div class="grid3 card">
+			<div id="card-container container" class="container_12 js-masonry"
+  data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
+				<div class="grid3 card item">
 					<article>
 					<img src="images/austin.jpg">
 					</article>
@@ -30,7 +32,7 @@
 						<p>based in austin, texas</p>
 					</article>
 				</div>
-				<div class="grid3 card">
+				<div class="grid3 card item">
 					<article>
 					<img src="images/alex.jpg">
 					</article>
@@ -38,23 +40,23 @@
 						<p>check me and my brother out!</p>
 					</article>
 				</div>
-				<div class="grid3 card">
+				<div class="grid3 card item">
 					<p>Portland chillwave umami, pitchfork deep v letterpress tousled leggings freegan ethnic small batch. Fap before they sold out Wes Anderson lomo, Williamsburg farm-to-table keytar single-origin coffee tote bag Schlitz flannel occupy viral four loko yr.</p>
 				</div>
-				<div class="grid3 card">
+				<div class="grid3 card item">
 					<h1>blog post: creating a DIY CRM system with google apps script</h1>
 				</div>
-				<div class="grid3 card" style="clear:both; display:inline-block;">
+				<div class="grid3 card item">
 					<h1>full stack</h1>
 					<p>ruby + rails</p>
 					<p>html + css</p>
 					<p>javascript / jquery</p>
 					<p>git</p>
 				</div>
-				<div class="grid3 card">
+				<div class="grid3 card item">
 					<p>Portland chillwave umami, pitchfork deep v letterpress tousled leggings freegan ethnic small batch. Fap before they sold out Wes Anderson lomo, Williamsburg farm-to-table keytar single-origin coffee tote bag Schlitz flannel occupy viral four loko yr.</p>
 				</div>
-				<div class="grid3 card">
+				<div class="grid3 card item">
 					<article>
 					<img src="images/austin.jpg">
 					</article>
@@ -62,7 +64,7 @@
 						<p>based in austin, texas</p>
 					</article>
 				</div>
-				<div class="grid3 card">
+				<div class="grid3 card item">
 					<article>
 					<img src="images/alex.jpg">
 					</article>
